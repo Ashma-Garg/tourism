@@ -1,0 +1,48 @@
+.login-page{
+	margin:150px 150px 0 150px;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(1c9476fddabd213dedcdb05c4a20d5bc.jpg);
+	background-size:cover;
+	background-position: center;
+}
+.form{
+	position: relative;
+	background-color:rgba(66,229,244,0.5);
+	border-radius: 3px;
+	max-width:195px;
+	padding:35px;
+	margin:0 auto 100px;
+}
+hr{
+	color:white;
+	width:360px;
+
+}
+input{
+	font-family: "Roboto", sans-serif;
+	outline:1;
+	border:0;
+	margin:0 0 15px;
+	padding:15px;
+	background-color: rgba(0,0,0,0.8);
+	color:white;
+}
+form button{
+	font-family:"Roboto", sans-serif;
+	text-transform:uppercase;
+	outline:0;
+	background:#4caf50;
+	width:100%;
+	border:0;
+	padding:15px;
+	color:#ffffff;
+	font-size:14px;
+	cursor:pointer;
+}
+button:hover, button:active{
+	background:#8cf442;
+}
+.form .reg-form{
+	display:none;
+}

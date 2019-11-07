@@ -1,0 +1,44 @@
+h1{
+	font-family: "Gochi Hand", cursive;
+	font-size:2em;
+	text-align: center;
+}
+.row img{
+	margin:10px;
+	border-radius: 35px;
+/*	width:300px;
+	height:200px;*/
+}
+.row img:hover{
+	transform: scale(1.1);
+}
+.row{
+	margin-left:170px;
+	padding:50px;
+}
+.col-sm-3{
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:10px;
+	padding-left:10px;
+}
+.container{
+	width:100%;
+	padding-left:0px;
+	padding-right:0px;
+	margin-right:0px;
+}
+.centered{
+	font-size:5em;
+	font-family:'Bangers',cursive;
+	font-family:'Rock Salt',cursive;
+	position:absolute;
+	top:35%;
+	left:35%;
+	/*transform: translate(-50%, -50);*/
+	color:white;
+}
+.col-sm-3{
+	height: 300px;
+	max-width: 300px;
+}
